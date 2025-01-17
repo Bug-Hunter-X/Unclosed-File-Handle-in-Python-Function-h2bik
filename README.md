@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in Python: forgetting to close a file handle after use.  The `bug.py` file contains a function that opens a file but fails to close it properly. This can lead to resource exhaustion.  `bugSolution.py` provides a corrected version using a `with` statement or `try...finally` to ensure the file is always closed.
